@@ -1,0 +1,15 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "type": "java",
+        "name": "Launch Java Program",
+        "request": "launch",
+        "mainClass": "com.mycompany.App", 
+        "vmArgs": "--add-modules javafx.controls,javafx.fxml"
+    },
+
+
+    ]
+}

@@ -165,6 +165,7 @@ public class App extends Application {
         // Notes name label
         Label notesLabel = new Label("Notes:");
         TextField notesField = new TextField();
+        notesField.setStyle(STYLESHEET_CASPIAN);
         notesArea = new TextArea();
         // Inline CSS styles
         notesLabel.setStyle("-fx-font-size: 16px; -fx-padding: 10px; -fx-text-fill: #333;");
